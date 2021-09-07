@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER IMAGE */
+
+header {
+    position: sticky;
+    top: -300px;
+    z-index: 777;
+}
+
+.imgs {
+    width: 100%;
+    height: 300px;
+    background-image: url(./header.jpg);
+    background-size: cover;
+
+}
+
+#frontimg {
+    position: absolute;
+    left: 47%;
+    width: 8rem;
+    transform: translateX(-50%, );
+}
+
+/* #backgroundimg {
+    position: relative;
+    width: 100%;
+    height: 250px;
+} */
+
+
+h1 {
+    color: orange;
+    text-shadow: black 2px 3px 5px;
+    text-align: center;
+
+
+}
+
+#headline {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+}
+
+/* HEADER NAV BAR */
+nav {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li {
+    color: white;
+    display: inline;
+    padding: 1vw;
+}
+
+.rightnav {
+    float: right;
+    padding-right: 40px;
+}
+
+
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+
+}
+
+a:hover {
+    color: grey;
+}
+
+/* MAIN */
+
+.content1 {
+    width: 85%;
+    height: 73rem;
+    margin: 0 auto;
+    background-color: rgb(237, 242, 245);
+    margin-top: 2rem;
+    position: relative;
+}
+
+.blue {
+    width: 50%;
+    height: 95%;
+    margin: 0 auto;
+    display: inline-block;
+    border-right: rgb(211, 211, 211) solid;
+    margin-bottom: 25px;
+}
+
+.orange {
+    width: 47.7%;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.boxblankblue,
+.boxblankorange {
+    width: 70%;
+    height: fit-content;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 15px 15px 50px 15px;
+    text-align: justify;
+
+}
+
+.boxblankblue {
+    border-color: aqua;
+
+}
+
+.boxblankorange {
+    border-color: orange;
+    padding-top: 25px;
+}
+
+ #box1 {
+    position: relative;
+    left: 25%;
+    transform: translateX(-25%);
+    
+} 
+
+#box2 {
+    position: relative;
+    left: 25%;
+    transform: translateX(-25%);
+    top: 20%;
+}
+
+#box3 {
+    position: relative;
+    left: 40%;
+    transform: translateX(-25%);
+    top: 20%;
+
+}
+
+#box4 {
+    position: relative;
+    left: 40%;
+    transform: translateX(-25%);
+    top: 40%;
+}
+
+/* KREISE */
+
+#bubble1,
+#bubble3,
+#bubble2,
+#bubble4 {
+    background-color: rgb(54, 174, 253);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#bubble2,
+#bubble4 {
+    background-color: rgb(231, 109, 27);
+
+}
+
+ #bubble1 {
+    top: 10vh;
+}
+
+#bubble2 {
+    top: 35vh;
+
+}
+
+#bubble3 {
+    top: 55vh;
+}
+
+#bubble4 {
+    top: 80vh;
+} 
+
+/* SUBMENU */
+
+.color {
+    position: relative;
+    background-color: rgb(237, 242, 245);
+    width: 85%;
+    height: 25rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.colorbox {
+    width: 45%;
+    text-align: justify;
+    padding: 50px 10px;
+}
+
+#colorbox1 {
+    background-color: orange;
+    position: absolute;
+    z-index: 300;
+
+}
+
+#colorbox2 {
+    background-color: aquamarine;
+    position: absolute;
+    left: 25vw;
+    top: 4rem;
+    z-index: 100;
+}
+
+#colorbox2:hover {
+    z-index: 400;
+}
+
+#colorbox3 {
+    background-color: plum;
+    position: absolute;
+    right: 0vw;
+    bottom: 0vh;
+    z-index: 200;
+}
+
+/* HOME BUTTON */
+
+.button {
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(255, 235, 205);
+    color: orange;
+    border: orange solid 3px;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 23px;
+    right: 20px;
+    z-index: 600;
+}
+
+#button {
+    position: absolute;
+    left: 10%;
+    right: 0;
+    top: 33%;
+
+}
+
+#button:link {
+    color: orange;
+}
+
+#button:visited {
+    color: orange;
+}
+
+#button:active {
+    color: orange;
+}
+
+.button:hover {
+    width: 4.2rem;
+    height: 4.2rem;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    z-index: 400;
+}
+
+#parafooter {
+    text-align: center;
+    padding: 20px;
+
+}
